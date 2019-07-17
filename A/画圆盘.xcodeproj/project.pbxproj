@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840A994E22AF38BD008652FD /* XF_MyCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A994C22AF38BD008652FD /* XF_MyCircleView.m */; };
 		844C590D22A4BFB300146B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C590C22A4BFB300146B9A /* AppDelegate.m */; };
 		844C591022A4BFB300146B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C590F22A4BFB300146B9A /* ViewController.m */; };
 		844C591322A4BFB300146B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844C591122A4BFB300146B9A /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		844C591B22A4BFB500146B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C591A22A4BFB500146B9A /* main.m */; };
 		844C592522A4BFB500146B9A /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C592422A4BFB500146B9A /* ___Tests.m */; };
 		844C593022A4BFB500146B9A /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C592F22A4BFB500146B9A /* ___UITests.m */; };
-		844C593F22A4BFE800146B9A /* XF_MyCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C593E22A4BFE800146B9A /* XF_MyCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840A994C22AF38BD008652FD /* XF_MyCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XF_MyCircleView.m; sourceTree = "<group>"; };
+		840A994D22AF38BD008652FD /* XF_MyCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XF_MyCircleView.h; sourceTree = "<group>"; };
 		844C590822A4BFB300146B9A /* 画圆盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画圆盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844C590B22A4BFB300146B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		844C590C22A4BFB300146B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		844C592B22A4BFB500146B9A /* 画圆盘UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画圆盘UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844C592F22A4BFB500146B9A /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		844C593122A4BFB500146B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		844C593D22A4BFE800146B9A /* XF_MyCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XF_MyCircleView.h; sourceTree = "<group>"; };
-		844C593E22A4BFE800146B9A /* XF_MyCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XF_MyCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				844C590C22A4BFB300146B9A /* AppDelegate.m */,
 				844C590E22A4BFB300146B9A /* ViewController.h */,
 				844C590F22A4BFB300146B9A /* ViewController.m */,
-				844C593D22A4BFE800146B9A /* XF_MyCircleView.h */,
-				844C593E22A4BFE800146B9A /* XF_MyCircleView.m */,
+				840A994D22AF38BD008652FD /* XF_MyCircleView.h */,
+				840A994C22AF38BD008652FD /* XF_MyCircleView.m */,
 				844C591122A4BFB300146B9A /* Main.storyboard */,
 				844C591422A4BFB500146B9A /* Assets.xcassets */,
 				844C591622A4BFB500146B9A /* LaunchScreen.storyboard */,
@@ -267,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844C593F22A4BFE800146B9A /* XF_MyCircleView.m in Sources */,
+				840A994E22AF38BD008652FD /* XF_MyCircleView.m in Sources */,
 				844C591022A4BFB300146B9A /* ViewController.m in Sources */,
 				844C591B22A4BFB500146B9A /* main.m in Sources */,
 				844C590D22A4BFB300146B9A /* AppDelegate.m in Sources */,
